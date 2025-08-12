@@ -12,22 +12,22 @@ const serviceData = {
         items: [
             {
                 name: 'Responsive Design',
-                description: "Responsive design makes a website automatically adjust to any screen size, so it looks and works great on phones, tablets, and desktops. It ensures a smooth user experience without zooming or scrolling sideways, no matter what device you're using. We make sure your users always have a smooth, professional experience wherever they visit from.",
+                description: "Our responsive website designs ensure that your site looks beautiful and works perfectly on all devices — from Android phones and iPhones to tablets and desktops. Whether your visitors are in Lagos, Abuja, Accra, or anywhere in West Africa, they'll enjoy a seamless user experience with fast loading speed, clear navigation, and professional layouts tailored to their screen size.",
                 Image: "./service-img/Responsive-design.jfif"
             },
             {
                 name: 'Landing Pages',
-                description: 'High-converting landing pages designed to capture leads and drive business growth.',
+                description: "We create high-converting landing pages designed to capture leads and grow your business fast. Whether you're promoting a service, product, or event in Nigeria or targeting a West African audience, our pages are optimized for search engines and built to drive action with clear calls-to-action, fast loading, and persuasive design.",
                 Image: "./service-img/landing-page.jfif"
             },
             {
                 name: 'E-commerce Design',
-                description: 'Beautiful online stores with seamless shopping experiences and secure payment integration.',
+                description: "Sell online with confidence. Our e-commerce web design services help you launch beautiful, secure online stores that support seamless shopping and fast payments. We integrate trusted Nigerian and international payment gateways like Paystack and Flutterwave to deliver smooth checkout experiences and build customer trust.",
                 Image: "./service-img/ecommerce-website-design.jpg"
             },
             {
                 name: 'Portfolio Sites',
-                description: 'Showcase your work with stunning portfolio websites that highlight your skills and achievements.',
+                description: "Showcase your work with a professionally designed portfolio website. Ideal for creatives, freelancers, developers, or agencies in Nigeria and West Africa, our portfolio sites highlight your achievements, skills, and services with clean layouts, strong visuals, and easy navigation that makes you stand out online.",
                 Image: "./service-img/Portfolio-sites.jpg"
             }
         ]
@@ -38,22 +38,22 @@ const serviceData = {
         items: [
             {
                 name: 'User Research',
-                description: 'In-depth user research to understand your audience and create data-driven design decisions.',
+                description: "We conduct deep user research to understand your audience’s goals, behavior, and preferences. This ensures your product or website is not just beautiful, but truly effective for users in Nigeria, Ghana, and the wider West African region. Our research helps reduce guesswork and drives smart design decisions.",
                 Image: "./service-img/User-research.jfif"
             },
             {
                 name: 'Wireframing',
-                description: 'Detailed wireframes and mockups to visualize the structure and layout of your digital products.',
+                description: "Get clear visual blueprints of your digital product before development begins. Our wireframes show layout, structure, and user flow, helping Nigerian and African businesses visualize their web or mobile apps for efficient planning, testing, and collaboration before investing in full design or development.",
                 Image: "./service-img/Wireframing.jfif"
             },
             {
                 name: 'Prototyping',
-                description: 'Interactive prototypes that allow you to test and refine user interactions before development.',
+                description: "We create interactive, clickable prototypes that simulate real user experiences. Perfect for startups and businesses in West Africa looking to pitch ideas, test usability, or gather investor feedback before going live. These prototypes help spot UX issues early and save money during development.",
                 Image: "./service-img/Prototyping.jfif"
             },
             {
                 name: 'User Testing',
-                description: 'Comprehensive user testing to validate design decisions and optimize user experience.',
+                description: "Our user testing service helps validate your designs by letting real users in Nigeria and West Africa interact with your product. We gather actionable feedback, identify friction points, and improve usability — so your digital experience works better for your actual audience.",
                 Image: "./service-img/User-testing.jfif"
             }
         ]
@@ -64,22 +64,22 @@ const serviceData = {
         items: [
             {
                 name: 'SEO Optimization',
-                description: 'Advanced SEO techniques to improve your search engine rankings and organic traffic.',
+                description: "Improve your visibility on Google and other search engines with our local and international SEO strategies. We use keyword research, on-page SEO, and technical optimization to help Nigerian and West African businesses rank higher, attract more organic traffic, and generate quality leads online.",
                 Image: "./service-img/SEO-Optimization.png"
             },
             {
                 name: 'Social Media Marketing',
-                description: 'Strategic social media campaigns to build brand awareness and engage your target audience.',
+                description: "Grow your online community with strategic social media marketing on platforms like Instagram, Facebook, TikTok, and X (Twitter). We create engaging content, targeted ads, and influencer collaborations to boost brand awareness and connect with your ideal audience across Nigeria and West Africa.",
                 Image: "./service-img/Social-Media-Marketing.jfif"
             },
             {
                 name: 'Content Marketing',
-                description: 'High-quality content creation that attracts, engages, and converts your ideal customers.',
+                description: "Attract and convert customers with compelling blog posts, videos, infographics, and more. Our content marketing services help Nigerian brands educate, inform, and influence their audience through valuable and optimized content that ranks on Google and builds long-term trust.",
                 Image: "./service-img/Content-Marketing.jfif"
             },
             {
                 name: 'QR Code Generation',
-                description: 'Targeted pay-per-click advertising campaigns that deliver measurable results and ROI.',
+                description: "Attract and convert customers with compelling blog posts, videos, infographics, and more. Our content marketing services help Nigerian brands educate, inform, and influence their audience through valuable and optimized content that ranks on Google and builds long-term trust.",
                 Image: "./service-img/QR-Code -Generation.png"
             }
         ]
@@ -90,22 +90,22 @@ const serviceData = {
         items: [
             {
                 name: 'Custom Web Apps',
-                description: 'Tailored web applications designed specifically for your business requirements and workflows.',
+                description: "We build custom web applications tailored to your unique business processes and customer needs. Whether you're running a startup in Nigeria or a growing enterprise in West Africa, our apps help you manage operations, improve efficiency, and deliver great digital experiences across devices.",
                 Image: "./service-img/Custom-Web-Apps.jfif"
             },
             {
                 name: 'API Development',
-                description: 'Robust APIs that enable seamless integration and communication between different systems.',
+                description: "Our API development services allow your systems and applications to communicate smoothly and securely. We create RESTful APIs for mobile apps, ecommerce, payment integration, and more — empowering Nigerian and African businesses to scale and connect platforms easily.",
                 Image: "./service-img/API-development.jfif"
             },
             {
                 name: 'Database Design',
-                description: 'Efficient database architectures that ensure fast performance and data integrity.',
+                description: "Get high-performance, secure databases that support your website or application. We design efficient databases using MySQL, PostgreSQL, or MongoDB — ideal for Nigerian tech startups, online platforms, and organizations managing customer or financial data.",
                 Image: "./service-img/Database-Design.jfif"
             },
             {
                 name: 'Cloud Integration',
-                description: 'Scalable cloud solutions that provide flexibility, security, and cost-effectiveness.',
+                description: "Leverage the power of cloud computing with our integration services. We connect your web apps to AWS, Google Cloud, or Azure to deliver faster performance, better security, and more flexibility — perfect for businesses in Nigeria and West Africa aiming to scale affordably.",
                 Image: "./service-img/Cloud-Integration.jfif"
             }
         ]
@@ -116,22 +116,22 @@ const serviceData = {
         items: [
             {
                 name: 'Content Strategy',
-                description: 'Comprehensive content strategies that align with your business goals and audience needs.',
+                description: "We develop clear content strategies aligned with your business goals and audience needs in Nigeria and across West Africa. From blog content calendars to brand voice development, we plan and organize your content to drive visibility, engagement, and conversions.",
                 Image: "./service-img/Content-Strategy.jfif"
             },
             {
                 name: 'UX Writing',
-                description: 'Clear, concise copy that guides users through your digital products seamlessly.',
+                description: "Our UX writing improves user interactions with simple, helpful, and clear language. We write buttons, messages, onboarding guides, and in-app text that feels natural to Nigerian and African audiences — reducing confusion and increasing satisfaction.",
                 Image: "./service-img/UX-Writing.jfif"
             },
             {
                 name: 'Technical Documentation',
-                description: 'Detailed technical documentation that makes complex information accessible and actionable.',
+                description: "We write user manuals, API docs, software guides, and knowledge bases that are easy to read and follow. Perfect for tech companies, fintech startups, and SaaS businesses in West Africa looking to empower users and reduce support requests.",
                 Image: "./service-img/Technical-Documentation.png"
             },
             {
                 name: 'Brand Messaging',
-                description: 'Compelling brand messaging that resonates with your audience and differentiates your business.',
+                description: "We craft compelling brand messaging that communicates your value clearly and emotionally. Whether you're launching a new business in Nigeria or rebranding for the West African market, we help you connect with customers through strong slogans, taglines, and brand stories.",
                 Image: "./service-img/Brand-Messaging.jfif"
             }
         ]
@@ -311,3 +311,74 @@ window.addEventListener('resize', handleResize);
 
 // Initialize on load
 handleResize();
+
+class Navbar {
+  constructor() {
+    this.mobileMenuToggle = document.getElementById("mobile-menu-toggle")
+    this.navFlex = document.querySelector(".nav-flex")
+    this.initMobileToggle()
+    this.setupScrollEffect()
+    this.setupSmoothScrolling()
+  }
+
+  initMobileToggle() {
+    if (!this.mobileMenuToggle || !this.navFlex) return
+
+    // Toggle mobile menu visibility
+    this.mobileMenuToggle.addEventListener("click", () => {
+      this.mobileMenuToggle.classList.toggle("active")
+      this.navFlex.classList.toggle("active")
+    })
+
+    // Close menu on nav item click
+    const navLinks = document.querySelectorAll(".nav-item")
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        this.mobileMenuToggle.classList.remove("active")
+        this.navFlex.classList.remove("active")
+      })
+    })
+  }
+
+  setupScrollEffect() {
+    const navbar = document.querySelector(".navbar")
+    if (!navbar) return
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        navbar.style.backgroundColor = "rgba(236, 240, 244, 0.95)"
+        navbar.style.backdropFilter = "blur(10px)"
+      } else {
+        navbar.style.backgroundColor = "var(--light-bg)"
+        navbar.style.backdropFilter = "none"
+      }
+    })
+  }
+
+  setupSmoothScrolling() {
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault()
+        const target = document.querySelector(this.getAttribute("href"))
+        if (target) {
+          target.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          })
+        }
+      })
+    })
+  }
+}
+
+// Initialize navbar after DOM loads
+document.addEventListener("DOMContentLoaded", () => {
+  new Navbar()
+})
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 768) {
+    this.mobileMenuToggle.classList.remove("active")
+    this.navFlex.classList.remove("active")
+  }
+})

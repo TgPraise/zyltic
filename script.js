@@ -288,3 +288,74 @@ window.addEventListener("load", () => {
   // Initialize country list
   populateCountryList(countryCodes)
 })
+
+class Navbar {
+  constructor() {
+    this.mobileMenuToggle = document.getElementById("mobile-menu-toggle")
+    this.navFlex = document.querySelector(".nav-flex")
+    this.initMobileToggle()
+    this.setupScrollEffect()
+    this.setupSmoothScrolling()
+  }
+
+  initMobileToggle() {
+    if (!this.mobileMenuToggle || !this.navFlex) return
+
+    // Toggle mobile menu visibility
+    this.mobileMenuToggle.addEventListener("click", () => {
+      this.mobileMenuToggle.classList.toggle("active")
+      this.navFlex.classList.toggle("active")
+    })
+
+    // Close menu on nav item click
+    const navLinks = document.querySelectorAll(".nav-item")
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        this.mobileMenuToggle.classList.remove("active")
+        this.navFlex.classList.remove("active")
+      })
+    })
+  }
+
+  setupScrollEffect() {
+    const navbar = document.querySelector(".navbar")
+    if (!navbar) return
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        navbar.style.backgroundColor = "rgba(236, 240, 244, 0.95)"
+        navbar.style.backdropFilter = "blur(10px)"
+      } else {
+        navbar.style.backgroundColor = "var(--light-bg)"
+        navbar.style.backdropFilter = "none"
+      }
+    })
+  }
+
+  setupSmoothScrolling() {
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault()
+        const target = document.querySelector(this.getAttribute("href"))
+        if (target) {
+          target.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          })
+        }
+      })
+    })
+  }
+}
+
+// Initialize navbar after DOM loads
+document.addEventListener("DOMContentLoaded", () => {
+  new Navbar()
+})
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 768) {
+    this.mobileMenuToggle.classList.remove("active")
+    this.navFlex.classList.remove("active")
+  }
+})
